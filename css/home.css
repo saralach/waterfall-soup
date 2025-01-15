@@ -1,0 +1,73 @@
+/*================= GENERAL STYLE OVERRIDES ==================*/
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.25rem;
+    margin-block-end: .5rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-block-end: .25rem;
+}
+
+section ~ section {
+    border-block-start: 4px solid var(--cream);
+}
+
+/*===================== WELCOME SECTION ======================*/
+#welcome {
+    background-image: url(../images/WaterfallSoupRestaurantInGame.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    padding-block: 12rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+
+    h1 {  
+        letter-spacing: 2px;
+        font-size: 4.5rem;
+        text-shadow: 0 0 20px black;
+
+        span.greeting {
+            font-size: 3.5rem;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            text-shadow: 0 0 10px black, 0 0 20px black;
+        }
+    }
+}
+
+/*===================== SPECIALS SECTION =====================*/
+#specials {
+    background: linear-gradient(110deg, var(--midred) 0 70%, var(--darkred) 70% 100%);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+
+    color: var(--cream);
+    
+    div.specialsinfo {
+        text-align: right;
+        grid-column: 2 / span 1;
+        padding-inline-end: 2vw;
+    }
+
+    img {
+        grid-column: 1 / span 1;
+        background-size: contain;
+    }
+}
+
+/*===================== REWARDS SECTION ======================*/
+#rewards {
+    background-color: var(--lightteal);
+    color: var(--white);
+    padding-block: 8rem;
+}
