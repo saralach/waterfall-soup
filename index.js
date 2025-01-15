@@ -33,17 +33,17 @@ template.innerHTML = `
             <ul id="socials">
                 <li>
                     <a href="https://www.facebook.com/">
-                        <img src="../images/socials/facebook.svg" alt="Facebook">
+                        <img src="images/socials/facebook.svg" alt="Facebook">
                     </a>
                 </li>
                 <li>
                     <a href="https://x.com/">
-                        <img src="../images/socials/twitter-x.svg" alt="X (Twitter)">
+                        <img src="images/socials/twitter-x.svg" alt="X (Twitter)">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/">
-                        <img src="../images/socials/instagram.svg" alt="Instagram">
+                        <img src="images/socials/instagram.svg" alt="Instagram">
                     </a>
                 </li>
             </ul>
